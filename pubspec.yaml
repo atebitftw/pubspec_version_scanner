@@ -1,0 +1,8 @@
+name: pubspec_version_scanner
+version: 1.0.0
+description: Scans all pubspecs in a dir and gens a file that contains a List of packages and versions.
+dependencies:
+  args: ^1.6.0
+  pubspec_parse: ^0.1.5
+environment:
+  sdk: '>=2.0.0 <3.0.0'
